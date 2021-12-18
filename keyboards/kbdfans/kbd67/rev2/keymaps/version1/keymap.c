@@ -62,7 +62,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [1] = LAYOUT_65_ansi(
   _______, _______, _______,_______,_______,_______,_______,_______,_______, _______,_______,  _______, _______, _______, _______, \
   _______, KC_Q,    KC_W,   KC_F,   KC_P,   KC_G,   KC_J,   KC_L,   KC_U,    KC_Y,    KC_SCLN, _______, _______, _______,   DF(0), \
-  _______, KC_A,    KC_S,   KC_R,   KC_T,   KC_D,   KC_H,   KC_N,   KC_E,    KC_I,    KC_O,    _______, _______,            KC_NO, \
+  _______, KC_A,    KC_R,   KC_S,   KC_T,   KC_D,   KC_H,   KC_N,   KC_E,    KC_I,    KC_O,    _______, _______,            KC_NO, \
   _______, KC_Z,    KC_X,   KC_C,   KC_V,   KC_B,   KC_K,   KC_M,   _______, _______, _______, _______,          _______, _______, \
   _______, _______, _______,                _______,                         _______, _______, _______, _______, _______, _______),
 
@@ -104,7 +104,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    * `----------------------------------------------------------------'
    */
 [3] = LAYOUT_65_ansi(
-  XXXXXXX,XXXXXXX,XXXXXXX,XXXXXXX,XXXXXXX,XXXXXXX,XXXXXXX,XXXXXXX,XXXXXXX,XXXXXXX, KC_MUTE,KC_VOLD,KC_VOLU,XXXXXXX,  RESET, \
+  XXXXXXX,XXXXXXX,XXXXXXX,XXXXXXX,XXXXXXX,XXXXXXX,XXXXXXX,XXXXXXX,XXXXXXX,XXXXXXX, KC__MUTE,KC__VOLDOWN,KC__VOLUP,XXXXXXX,  RESET, \
   XXXXXXX,KC_PSCR,KC_BRK,KC_SYSREQ,XXXXXXX,XXXXXXX,XXXXXXX,XXXXXXX,XXXXXXX,KC_MSTP,KC_MPLY,KC_MPRV,KC_MNXT,XXXXXXX,XXXXXXX, \
   KC_CLCK,KC_SLCK,KC_SLCK,XXXXXXX,XXXXXXX,XXXXXXX,XXXXXXX,XXXXXXX,XXXXXXX,XXXXXXX, XXXXXXX,XXXXXXX,XXXXXXX,        XXXXXXX, \
   KC_LSFT,XXXXXXX,XXXXXXX,XXXXXXX,XXXXXXX,XXXXXXX,XXXXXXX,XXXXXXX,XXXXXXX,XXXXXXX, XXXXXXX,XXXXXXX,        XXXXXXX,_______, \
